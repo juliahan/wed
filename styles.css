@@ -1,0 +1,244 @@
+/* CSS Document */
+
+body { 
+	background: #009900 url(images/gradientBackground.png) repeat-x;  
+	margin: 0 auto;
+	padding: 0;	
+	font-family: arial, sans-serif;
+	color: #d2e2f1;
+	line-height: 1.5em;
+}
+
+ 
+a {
+	color: #ff9900;
+}
+a:hover {
+	color: #d2e2f1;
+}
+img {
+	border: none;
+	outline: none;	
+}
+.red {
+	color: #cc0000;
+}
+
+
+#wrapper {
+	position: relative;
+	background: #000066 url(images/gradientBackground.png) repeat-x; 
+}
+
+#mainContainer {
+	width: 870px;
+	margin: 60px auto 0 auto;	
+}
+
+#monsterHead {
+	margin-top: -30px;
+	width: 870px;
+	background:url(images/head2.png) no-repeat;
+	height: 273px;
+	z-index: 101;	
+	position:fixed;
+}
+#maskMonsterHead {
+	margin-top: -81px;
+	position: fixed;
+	background:  transparent url(images/mask.png) repeat-x;
+	z-index: 99;
+	width:100%;
+	min-width: 870px;
+	min-height: 200px;
+}
+#navigation {
+	z-index: 162 !important;
+	position: fixed;	
+	text-align: center;
+	width: 870px;
+	padding-top: 90px;
+}
+
+#navigation ul {
+	list-style: none;
+	padding: 10px;
+}
+
+#navigation li {
+	display: inline;	
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#navigation a {
+	color: #fff;
+	text-decoration: none;	
+}
+#navigation a:hover {
+	color: #0000cc;
+	text-decoration: underline;	
+}
+
+#mouthRepeat {
+	min-height: 450px;	
+	background:url(images/mouthrepeat.png) repeat-y;
+}
+
+#mainContent { 
+	padding-top: 250px;
+	position: relative;
+	z-index:70;	
+	width: 550px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	text-align: center;
+}
+#lowerMouth {
+	width: 870px;
+	margin: 0 auto;
+	margin-top: -60px;
+	background:url(images/bottomjaw.png) no-repeat;
+	height: 157px;
+	z-index: 80;
+	position:relative;
+}
+
+#girl {
+	position:relative;
+	background:url(images/girl2.png) center no-repeat;
+	z-index:101;
+	margin-top: -300px;
+	margin-left: 450px;
+	width: 390px;
+	height: 267px;
+}
+
+#monsterBody{
+	position:relative;
+	margin-top: -55px;
+	background:url(images/body2.png) center no-repeat;
+	min-height: 268px;
+	z-index: 70;
+}
+
+
+
+h1 {
+	color: #fff;
+	text-align: center;	
+}
+
+h2 {
+	color: #fff;
+	font-weight: normal;
+	font-size: 33px;	
+	text-align:center;
+	text-shadow: -1px -1px #082642;
+}
+
+.moon {
+	position: fixed;
+	top: -45px;
+	left: 20px;
+	z-index: 100;
+	background: url(images/moon.png) no-repeat; 
+	width: 184px;
+	height: 184px;
+}
+
+.star {
+	z-index: 2000;
+	position: fixed;
+	background: url(images/star.png) no-repeat;
+	width: 20px;
+	height: 28px;
+}
+.starB {
+	z-index: 2000;
+	position: fixed;
+	background: url(images/star3.png) no-repeat;
+	width: 12px;
+	height: 17px;
+} 
+#star1 {   
+    z-index: 2001;
+	top: 200px;
+	left: 5%;
+}
+
+#star2 {
+	position: fixed;
+	top: 35%;
+	right: 12%;
+}
+#star3 {
+	bottom: 60%;
+    left: 10%;
+} 
+#star4{
+	top:  1%;
+	right: 33%
+}
+ 
+#star5 {
+	top:  8%;
+	right: 5%;
+}
+#star6 {
+	bottom:  40%;
+	left: 8%;
+}
+#star7 {
+	bottom:  40%;
+	right: 8%;
+}
+#star8 {
+	z-index: 5000;
+	top:  4%;
+	left: 24%;
+}
+
+.gallery {
+	border-top: 1px solid #21527f;
+	border-bottom: 1px solid #21527f;
+	padding-top: 10px;
+}
+.footer-container {
+	position: relative;
+	width: 100%;
+	min-height: 180px; 
+	margin-top: -50px; 
+}
+.footer {
+	position: relative; 
+	z-index: 3;
+	background: transparent url(images/flowers.png) repeat-x top;
+	text-align: center;
+	width: 100%;
+	min-height: 100px;
+	padding-top: 30px;
+	font-size:  10px;
+	}  
+.footer span {
+	display: block;
+	padding-top: 60px;
+}
+.footer a {
+	color: yellow;
+}	
+.pink {
+	position: absolute;
+	top: -20px;
+	z-index: 2;
+	width: 100%;
+	height: 87px;
+	background: url(images/pinker.png) no-repeat;  
+	background-position: 1000px top;
+}
+.story img {
+	border: 3px solid #0066ff;
+}
+#mainContent.registry {
+	padding-top: 270px;
+}
